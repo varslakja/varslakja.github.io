@@ -1,0 +1,46 @@
+/* Fab Horizontal Rule */
+/*.sq-1 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-2 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-3 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-4 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-5 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-6 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-7 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-8 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-9 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-10 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-11 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-12 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-13 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-14 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-15 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-16 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-17 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-18 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-19 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-20 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-21 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-22 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-23 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-24 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}
+
+.sq-25 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #730D32;}
+.sq-26 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #8C8846;}
+.sq-27 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FF974F;}
+.sq-28 {height: 25px; width: 25px; margin: 2.5px; display: inline-block; background-color: #FFD393;}*/
+/* Fab Horizontal Rule End */
+
+
+<h4>Services</h4>
+
+h4 {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #F23827;
+}
