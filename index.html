@@ -1,17 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Hello World!</h1>
-    </header>
-    <main>
-        <p>Welcome to my GitHub Pages website.</p>
-    </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIAVALTA</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="name">LIAVALTA</h1>
+        <nav>
+          <a href="/blog">BLOG</a>
+          <a href="/projects">PROJECTS</a>
+          <a href="/contact">CONTACT</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro">
+          <p>
+            Hi! :&#41; I'm an independent lyricist and graphic designer
+            currently based in Switzerland but on my way to Florida, baby! 😎
+          </p>
+
+          <p>Wanna collaborate with me? Chat me up!</p>
+        </section>
+
+        <section class="latest">
+          <h2>Latest projects</h2>
+          <p>Here's my latest work...</p>
+        </section>
+
+        <section class="newsletter">
+          <h3>Newsletter</h3>
+          <p>I'll spam you so little, you'll be surprised.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="links">
+          <h3>Links</h3>
+          <div class="links-grid">
+            <a href="#">YouTube</a>
+            <a href="#">Instagram</a>
+            <a href="#">Spotify</a>
+          </div>
+        </section>
+
+        <footer>
+          <p>Copyright © 2025 Liavalta &mdash; All rights reserved.</p>
+        </footer>
+      </main>
+    </div>
+    <!-- CONFETTI
+    <style>
+        .confetti-container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+
+      .confetti {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #f00;
+        opacity: 0.7;
+        animation: fall 3s linear infinite;
+      }
+
+      /* Different shapes for confetti */
+      .confetti.square {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+      }
+      .confetti.circle {
+        border-radius: 50%;
+      }
+      .confetti.triangle {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+
+      /* Different colors for confetti */
+      .confetti:nth-child(7n) {
+        background-color: #ff0000;
+      }
+      .confetti:nth-child(7n + 1) {
+        background-color: #ffa500;
+      }
+      .confetti:nth-child(7n + 2) {
+        background-color: #ffff00;
+      }
+      .confetti:nth-child(7n + 3) {
+        background-color: #00ff00;
+      }
+      .confetti:nth-child(7n + 4) {
+        background-color: #0000ff;
+      }
+      .confetti:nth-child(7n + 5) {
+        background-color: #4b0082;
+      }
+      .confetti:nth-child(7n + 6) {
+        background-color: #8f00ff;
+      }
+
+      @keyframes fall {
+        0% {
+          transform: translateY(-100px) rotate(0deg) scale(1);
+          opacity: 0.5;
+        }
+        25% {
+          transform: translateY(25vh) rotate(90deg) scale(0.9);
+          opacity: 0.4;
+        }
+        50% {
+          transform: translateY(50vh) rotate(180deg) scale(0.8);
+          opacity: 0.3;
+        }
+        75% {
+          transform: translateY(75vh) rotate(270deg) scale(0.7);
+          opacity: 0.2;
+        }
+        100% {
+          transform: translateY(100vh) rotate(360deg) scale(0.6);
+          opacity: 0;
+        }
+      }
+    </style>
+  -->
+  </head>
+  <body>
+    <div class="confetti-container" id="confetti-container"></div>
+
+    <script>
+      function createConfetti() {
+        const container = document.getElementById("confetti-container");
+        const shapes = ["square", "circle", "triangle"];
+
+        // Create a new confetti piece
+        const confetti = document.createElement("div");
+        confetti.className = `confetti ${
+          shapes[Math.floor(Math.random() * shapes.length)]
+        }`;
+
+        // Random starting position
+        confetti.style.left = Math.random() * 100 + "vw";
+
+        // Random size between 5px and 15px
+        const size = Math.random() * 10 + 5;
+        confetti.style.width = `${size}px`;
+        confetti.style.height = `${size}px`;
+
+        // Random animation duration between 2s and 4s
+        confetti.style.animationDuration = Math.random() * 8 + 2 + "s";
+
+        container.appendChild(confetti);
+
+        // Remove confetti after animation
+        setTimeout(() => {
+          confetti.remove();
+        }, 4000);
+      }
+
+      // Create new confetti pieces continuously
+      setInterval(createConfetti, 50);
+    </script>
+  </body>
 </html>
