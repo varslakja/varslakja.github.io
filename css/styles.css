@@ -66,9 +66,8 @@ header {
 }
 
 .name {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
-    monospace;
-  font-weight: 800;
+  font-family: "Arial Narrow", sans-serif;
+  font-weight: 900;
   margin: 0;
 }
 
@@ -91,6 +90,10 @@ section {
 
 .intro p {
   font-size: 1.1rem;
+}
+
+.workdisplay {
+  width: 100%;
 }
 
 /* Newsletter */
@@ -145,6 +148,8 @@ button:hover {
 .favorites-section {
   margin-bottom: 2rem;
 }
+
+/* Footer */
 
 /* Responsive design */
 @media (max-width: 600px) {
